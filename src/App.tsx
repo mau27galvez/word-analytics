@@ -1,7 +1,13 @@
+import Container from "./Container"
+import Footer from "./Footer"
+import Header from "./Header"
+
 function App() {
-  return (
-      <h1>test</h1>
-  )
+  return <>
+    <Header />
+    <Container />
+    <Footer />
+  </>;
 }
 
 export default App
